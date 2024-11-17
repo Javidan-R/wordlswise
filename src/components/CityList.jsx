@@ -2,7 +2,6 @@ import React from "react";
 import Spinner from "../components/Spinner";
 import styles from "./CityList.module.css";
 import CityItem from "./CityItem";
-import Message from "./Message";
 import { useCities } from "../contexts/CitiesProvider";
 const CityList = () => {
   const { cities, isLoading } = useCities();
